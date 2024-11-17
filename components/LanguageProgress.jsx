@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 
 const LanguagesProgress = () => {
     const languages = [
-        { language: 'C++', proficiency: 70, bgColor: '#838fe9' },
+        { language: 'C++', proficiency: 55, bgColor: '#838fe9' },
         { language: 'Python', proficiency: 55, bgColor: '#81d8d0' },
-        { language: 'JavaScript', proficiency: 65, bgColor: '#2965F1' },
-        { language: 'SQL', proficiency: 40, bgColor: '#61DAFB' },
+        { language: 'JavaScript', proficiency: 60, bgColor: '#2965F1' },
+        { language: 'SQL', proficiency: 57, bgColor: '#61DAFB' },
         { language: 'Next.js', proficiency: 70, bgColor: '#ffabe7' },
         { language: 'React', proficiency: 75, bgColor: '#b068cb' },
     ];

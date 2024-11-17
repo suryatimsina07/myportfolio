@@ -20,9 +20,9 @@ const Badge = ({ containerStyles, icon, endCountNum, endCountText, badgeText, re
             {/* reviews card*/}
             {reviewCount && <div>
                 <div className="flex gap-x-4">
-                    <Image src={'/bg.png'} alt="" height={41} width={41} className="rounded-full" />
+                    <Image src={'/surya.jpg'} alt="" height={41} width={41} className="rounded-full" />
                     <div className="flex flex-col">
-                        <span className="bold-15 text-black">Ishwor Tandon</span>
+                        <span className="bold-15 text-black">Surya Timsina</span>
                         <span className="flexCenter text-xs text-primary dark:text-black">
                             <FaStar />
                             <FaStar />
@@ -40,17 +40,10 @@ const Badge = ({ containerStyles, icon, endCountNum, endCountText, badgeText, re
                     <h4 className="bold-15 my-2 text-black">Recent Work</h4>
                     <div className="flex flex-col gap-3">
                         <div className="flexCenter gap-x-2 text-black">
-                            <span className="bg-[#eaeaea] h-8 w-8 flexCenter rounded-full">NTI</span>
+                            <span className="bg-[#eaeaea] h-8 w-8 flexCenter rounded-full">YZ</span>
                             <div className="flex flex-col">
-                                <span className="text-sm font-bold leading-none">New Taste Of India</span>
-                                <p className="text-xs ">Fullstack Restaurant Website</p>
-                            </div>
-                        </div>
-                        <div className="flexCenter gap-x-2 text-black">
-                            <span className="bg-[#f9f29f] h-8 w-8 flexCenter rounded-full">VA</span>
-                            <div className="flex flex-col">
-                                <span className="text-sm font-bold leading-none">Vilas Aesthestics </span>
-                                <p className="text-xs "> Fullstack SPA Website</p>
+                                <span className="text-sm font-bold leading-none">YonZon Barber $ Beauty</span>
+                                <p className="text-xs ">UI & UX Design</p>
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ const Logo = () => {
     className='bold-32 !font-extrabold'
     >
 
-    T.<span className='text-primary'> Ishwor </span>   
+    T.<span className='text-primary'> Surya </span>   
     </Link>
   )
 }

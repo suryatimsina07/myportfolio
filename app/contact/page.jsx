@@ -15,7 +15,7 @@ const page = () => {
           <div className='flex flex-col gap-y-5 mt-6 medium-15'>
             <div className='flex gap-x-3'>
               <span><User2 size={20} /></span>:
-              <span>Ishwor T.</span>
+              <span>Surya T.</span>
             </div>
             <div className='flex gap-x-3'>
               <span><PhoneCall size={20} /></span>:
@@ -23,7 +23,7 @@ const page = () => {
             </div>
             <div className='flex gap-x-3'>
               <span><MailIcon size={20} /></span>:
-              <span>ishwor.tandon@uleth.ca</span>
+              <span>surya.timsina@lethpolytech.ca</span>
             </div>
             <div className='flex gap-x-3'>
               <span><HomeIcon size={20} /></span>:

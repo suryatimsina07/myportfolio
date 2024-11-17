@@ -8,7 +8,7 @@ const Footer = () => {
                 <h4 className='text-white '>Follow me on Social media</h4>
                 <SocialIcons />
                 <hr className='h-[1px] w-2/3 my-3' />
-                <div className='text-white'>Copyright &copy; Ishwor T. | All rights reserved.</div>
+                <div className='text-white'>Copyright &copy; Surya T. | All rights reserved.</div>
 
             </div>
         </section>

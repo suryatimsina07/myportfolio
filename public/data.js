@@ -34,21 +34,13 @@ export const ACCORDION = [
 
 export const EDUCATION = [
   {
-    title: "Vilas Aesthitcs - Calagry, Canada",
+    title: "YonZon Barber & Beauty",
     year: "Currently Working",
-  },
-  {
-    title: "Fullstack Developer - Taste Of India, Lethbridge",
-    year: "2019 - Present",
-  },
-  {
-    title: "Freelancer - Bot Developer, Discord",
-    year: "Present",
   },
 ];
 export const EXPERINCE = [
   {
-    title: "University Of Lethbridge",
+    title: "Lethbridge Polytechnic",
     year: "Anticipated – April 2025",
   },
 ];
@@ -68,9 +60,9 @@ export const SERVICES = [
   },
   {
     icon: <Layers size={44} strokeWidth={0.8} />,
-    title: "Data Science & Analytics",
+    title: "Algorithm & Data Structures",
     description:
-      "I have a strong foundation in Data Analytics and deep learning. I use Python, CNN, Keras, Shap, and the VGG13 model to achieve remarkable results.",
+      "I have a strong foundation in Data Structures and Algorithms. I excel at solving complex problems using efficient algorithms, leveraging concepts such as recursion, dynamic programming, graph theory, and sorting algorithms. My expertise enables me to optimize code and build scalable solutions for real-world challenges.",
   },
 ];
 

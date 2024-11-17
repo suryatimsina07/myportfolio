@@ -12,7 +12,7 @@ const About = () => {
         <section className='max-padd-container py-16 xl:py-28'>
             {/* title */}
             <div className="pb-10 text-center xl:text-start font-bold">
-                <span className="text-primary uppercase">Meet Ishwor</span>
+                <span className="text-primary uppercase">Meet Surya</span>
                 <h3 className='h3 font-extrabold'>About me</h3>
             </div>
             {/* container */}
@@ -48,7 +48,7 @@ const About = () => {
                         <TabsList className='w-full grid grid-cols-3 max-w-[511px] border dark:border-secondary mx-auto xl:mx-0'>
                             <TabsTrigger value='skills'>Skills</TabsTrigger>
                             <TabsTrigger value='education'>Education</TabsTrigger>
-                            <TabsTrigger value='intro'>My Expertise</TabsTrigger>
+    
                         </TabsList>
                         {/* tabs content */}
                         <div className="pt-12 xl:pt-3 pl-3">
@@ -82,12 +82,7 @@ const About = () => {
                                 </div>
                             </TabsContent>
                             {/* skills */}
-                            <TabsContent value='intro'>
-                                <h4 className="bold-20 uppercase pb-1">Pleasure to meet you!</h4>
-                                <p className="max-w-md">I am an enthusiastic student of Computer Science and Business Management, driven by a passion for developing impactful and purposeful projects. My learning philosophy centers on immersive, hands-on experiences that allow me to dive into complex concepts headfirst. I firmly believe this practical approach not only deepens my understanding but also sets the stage for excellence in the dynamic field of computer science. Whether it's coding, analyzing data, or collaborating on innovative solutions, I am committed to making a meaningful difference through technology.</p>
-                                {/* accordion */}
-                                {/* <Accordion sliceCount={(0, 3)} /> */}
-                            </TabsContent>
+                            
                         </div>
                     </Tabs>
                 </div>
