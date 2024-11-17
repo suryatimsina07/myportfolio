@@ -10,6 +10,7 @@ const LanguagesProgress = () => {
         { language: 'SQL', proficiency: 57, bgColor: '#61DAFB' },
         { language: 'Next.js', proficiency: 70, bgColor: '#ffabe7' },
         { language: 'React', proficiency: 75, bgColor: '#b068cb' },
+       
     ];
 
     return (
