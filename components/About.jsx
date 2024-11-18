@@ -45,10 +45,10 @@ const About = () => {
                 {/* right */}
                 <div className="flex-1 mx-auto xl:mx-0">
                     <Tabs defaultValue="skills">
-                        <TabsList className='w-full grid grid-cols-3 max-w-[511px] border dark:border-secondary mx-auto xl:mx-0'>
+                       <TabsList className='w-full grid grid-cols-2 max-w-[435px] border dark:border-secondary mx-auto xl:mx-0'>
                             <TabsTrigger value='skills'>Skills</TabsTrigger>
                             <TabsTrigger value='education'>Education</TabsTrigger>
-    
+                            
                         </TabsList>
                         {/* tabs content */}
                         <div className="pt-12 xl:pt-3 pl-3">

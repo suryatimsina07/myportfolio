@@ -71,7 +71,7 @@ const Hero = () => {
             endCountText={'+'}
           />
           <Badge
-            containerStyles={'absolute top-[22%] right-0'} reviewCount={33} />
+            containerStyles={'absolute top-[22%] right-0'} reviewCount={23} />
         </div>
       </div>
     </div>

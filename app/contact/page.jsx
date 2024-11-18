@@ -11,7 +11,7 @@ const page = () => {
         <div className="flex flex-col flex-1 ">
           <span className="text-primary uppercase font-bold">Get in touch</span>
           <h3 className='h3 font-extrabold'>Contact Me</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci officia necessitatibus assumenda, reprehenderit praesentium doloribus, facere odio obcaecati iure repudiandae magni!</p>
+      
           <div className='flex flex-col gap-y-5 mt-6 medium-15'>
             <div className='flex gap-x-3'>
               <span><User2 size={20} /></span>:

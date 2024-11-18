@@ -16,8 +16,8 @@ const Portfolio = () => {
             <div className="flex flex-col xl:flex-row gap-6">
                 {/* title */}
                 <div className="flex flex-col xl:justify-center">
-                    <span className="text-primary uppercase font-bold">Reffrences</span>
-                    <h3 className='h3 font-extrabold'>testimonials</h3>
+                    <span className="text-primary uppercase font-bold">Projects</span>
+                    <h3 className='h3 font-extrabold'>My Creations</h3>
                 </div>
                 {/* Projects */}
                 <div className="mx-auto max-w-[70%] md:max-w-full xl:max-w-[70%]">
