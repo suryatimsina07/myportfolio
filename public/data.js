@@ -70,23 +70,22 @@ export const SERVICES = [
 // Work data
 export const WORKDATA = [
   {
-    title: "LA Royals Website ",
-    url: "/la.png",
-    category: "fullStack",
-    github: "https://github.com/suryatimsina07/laroyals",
-    live : "https://suryatimsina07.github.io/laroyals/",
-    des: "Interactive, responsive, scalable full-stack website with intuitive user interface design.",
+      url: "/la.png",
+      title: "LA Royals Website",
+      category: "FullStack",
+      des: "Interactive, responsive, scalable full-stack website with intuitive user interface design.",
+      github: "https://github.com/your-repo1",
+      live: "https://your-live-link1.com",
   },
   {
-    title: "LA Royals Website 2",
-    url: "/la.png",
-    category: "fullStack",
-    github: "https://github.com/suryatimsina07/laroyals",
-    live : "https://suryatimsina07.github.io/laroyals/",
-    des: "Interactive, responsive, scalable full-stack website with intuitive user interface design.",
+      url: "/la.png",
+      title: "Yonzon Barber & Beauty",
+      category: "Ui&Ux",
+      des: "Interactive, responsive, scalable website with intuitive user interface design.",
+      github: "https://github.com/your-repo2",
+      live: "https://your-live-link2.com",
   },
 ];
-
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [

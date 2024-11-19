@@ -21,38 +21,36 @@ const Portfolio = () => {
                 </div>
                 {/* Projects */}
                 <div className="mx-auto max-w-[70%] md:max-w-full xl:max-w-[70%]">
-                    <Swiper
-                        breakpoints={{
-                            640: {
-                                slidesPerView: 1,
-                                spaceBetween: 30,
-                            },
-                            768: {
-                                slidesPerView: 2,
-                                spaceBetween: 30,
-                            },
-                        }}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        modules={[Pagination]}
-                        className="h-[422px] sm:h-[477px] mt-10"
-                    >
-                        {WORKDATA.map((project, i) => {
-                            if (project.category === 'fullStack') {
-                                return <SwiperSlide key={i} className="flexCenter">
-                                    <PortfolioCard 
-                                        url={project.url}
-                                        github={project.github}
-                                        live={project.live}
-                                        title={project.title}
-                                        category={project.category}
-                                        des={project.des}
-                                    />
-                                </SwiperSlide>
-                            }
-                        })}
-                    </Swiper>
+                <Swiper
+    breakpoints={{
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+    }}
+    pagination={{
+        clickable: true,
+    }}
+    modules={[Pagination]}
+    className="h-[422px] sm:h-[477px] mt-10"
+>
+    {WORKDATA.map((project, i) => (
+        <SwiperSlide key={i} className="flexCenter">
+            <PortfolioCard
+                url={project.url}
+                github={project.github}
+                live={project.live}
+                title={project.title}
+                category={project.category}
+                des={project.des}
+            />
+        </SwiperSlide>
+    ))}
+</Swiper>
                 </div>
             </div>
         </section >
