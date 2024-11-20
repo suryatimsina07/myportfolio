@@ -7,7 +7,7 @@ export const LINKS = [
     path: "/",
   },
   {
-    title: "portfolio",
+    title: "Refrences",
     path: "/portfolio",
   },
   {
@@ -74,16 +74,16 @@ export const WORKDATA = [
       title: "LA Royals Website",
       category: "FullStack",
       des: "Interactive, responsive, scalable full-stack website with intuitive user interface design.",
-      github: "https://github.com/your-repo1",
-      live: "https://your-live-link1.com",
+      github: "https://github.com/suryatimsina07/laroyals",
+      live: "suryatimsina07.github.io/laroyals/",
   },
   {
-      url: "/la.png",
+      url: "/yz.png",
       title: "Yonzon Barber & Beauty",
       category: "Ui&Ux",
       des: "Interactive, responsive, scalable website with intuitive user interface design.",
-      github: "https://github.com/your-repo2",
-      live: "https://your-live-link2.com",
+      github: "",
+      live: "https://yonzon-barbar.square.site/",
   },
 ];
 
