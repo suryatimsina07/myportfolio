@@ -75,7 +75,7 @@ export const WORKDATA = [
       category: "FullStack",
       des: "Interactive, responsive, scalable full-stack website with intuitive user interface design.",
       github: "https://github.com/suryatimsina07/laroyals.git",
-      live: "suryatimsina07.github.io/laroyals/",
+      live: "https://suryatimsina07.github.io/laroyals/",
   },
   {
       url: "/yz.png",
