@@ -1,6 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Accordion from "./Accordian";
-import { EDUCATION, EXPERINCE } from "@/public/data";
+import { EDUCATION, } from "@/public/data";
+import {EXPRIENCE, } from "@/public/data";
 import LanguagesProgress from "./LanguageProgress";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './ui/About.scss';
@@ -45,9 +46,10 @@ const About = () => {
                 {/* right */}
                 <div className="flex-1 mx-auto xl:mx-0">
                     <Tabs defaultValue="skills">
-                       <TabsList className='w-full grid grid-cols-2 max-w-[435px] border dark:border-secondary mx-auto xl:mx-0'>
+                       <TabsList className='w-full grid grid-cols-3 max-w-[435px] border dark:border-secondary mx-auto xl:mx-0'>
                             <TabsTrigger value='skills'>Skills</TabsTrigger>
                             <TabsTrigger value='education'>Education</TabsTrigger>
+                            <TabsTrigger value='exprience'>Experience</TabsTrigger>
                             
                         </TabsList>
                         {/* tabs content */}
@@ -61,27 +63,43 @@ const About = () => {
                             {/* education */}
                             <TabsContent value='education'>
                                 <div className="flex flex-col gap-4">
-                                    <h4 className="bold-20 uppercase">My Education & Experience</h4>
+                                    <h4 className="bold-20 uppercase">My Education</h4>
                                     {EDUCATION.map((item, i) => (
-                                        <div key={i} className="flex gap-4 medium-15">
-                                            <div>{item.title}</div>
-                                            -
-                                            <div>{item.year}</div>
-                                        </div>
+                                         <div key={i} className="flex flex-col gap-2 medium-15"> {/* Use flex-col to stack items */}
+                                         <div className='block mb-2'> {item.title}  - {item.year}</div>
+                                        
+                                         
+                                         <div className='block mb-2'>{item.t} - {item.y}</div>
+                                    
+                                     </div>
                                     ))}
-                                </div>
-                                <hr className="my-4 w-10/12" />
-                                <div className="flex flex-col gap-4 mt-1.5">
-                                    {EXPERINCE.map((item, i) => (
-                                        <div key={i} className="flex gap-4 medium-15">
-                                            <div>{item.title}</div>
-                                            -
-                                            <div>{item.year}</div>
-                                        </div>
-                                    ))}
-                                </div>
+                            </div>
+
                             </TabsContent>
-                            {/* skills */}
+
+
+
+
+                            <TabsContent value='exprience'>
+                                <div className="flex flex-col gap-4">
+                                    <h4 className="bold-20 uppercase">Exprience</h4>
+                                    {EXPRIENCE.map((item, i) => (
+                                         <div key={i} className="flex flex-col gap-1 medium-15"> {/* Use flex-col to stack items */}
+                                         <div className='block mb-2'> {item.title}  - {item.year}</div>
+                                         <div className='block mb-2'> {item.t4}  - {item.y4}</div>
+                                         <div className='block mb-'> {item.t3}  - {item.y3}</div>
+                                         <div className='block mb-2'> {item.t2} {item.y2}</div>
+                                         <div className='block mb-1'> {item.t1} -{item.y1}</div>
+                                         <div className='block mb-2'> {item.t}   - {item.y}</div>
+                                        
+                                
+                                    
+                                     </div>
+                                    ))}
+                            </div>
+
+                            </TabsContent>
+                        
                             
                         </div>
                     </Tabs>

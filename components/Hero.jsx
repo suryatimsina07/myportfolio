@@ -25,14 +25,13 @@ const Hero = () => {
     <div className='flexCenter gap-24 flex-col xl:flex-row'>
       {/* Left Side of the hero section! */}
       <div className='flex flex-1 flex-col pt-12 xl:pt-32'>
-        <h1 className='h1 !font-extrabold'>
-          Hello, World
-        </h1>
-        <h2 className='h2 !font-bold'>My name is Surya Timsina</h2>
+        <h1 className='h1 !font-bold'> Surya Timsina</h1>
+        <h3>Driven by a deep sense of purpose, my mission is to work hard and make meaningful 
+          contributions, not just in my field but for the well-being and happiness of my family.</h3>
         <p>
-          I am a full-time student at Lethbridge Polytechnic, currently pursuing a diploma in Computer Information Technology. 
-          Passionate about innovation and driven by a deep sense of purpose, my mission is to work hard and make meaningful 
-          contributions, not just in my field but for the well-being and happiness of my family.
+        I am a full-time student at Lethbridge Polytechnic, currently pursuing a diploma in 
+        Computer Information Technology. Passionate about innovation, I am dedicated to developing 
+        skills that will help me grow in my field and make a positive impact.
         </p>
   
         <div className='mt-6 flex gap-4'>

@@ -39,16 +39,17 @@ const Portfolio = () => {
     className="h-[422px] sm:h-[477px] mt-10"
 >
     {WORKDATA.map((project, i) => (
-        <SwiperSlide key={i} className="flexCenter">
-            <PortfolioCard
-                url={project.url}
-                github={project.github}
-                live={project.live}
-                title={project.title}
-                category={project.category}
-                des={project.des}
-            />
-        </SwiperSlide>
+     <SwiperSlide key={i} className="swiper-slide">
+    <PortfolioCard
+        className="portfolio-card"
+        url={project.url}
+        github={project.github}
+        live={project.live}
+        title={project.title}
+        category={project.category}
+        des={project.des}
+    />
+</SwiperSlide>
     ))}
 </Swiper>
                 </div>

@@ -16,32 +16,29 @@ export const LINKS = [
   },
 ];
 
-export const ACCORDION = [
-  {
-    question: "Who are you and what do you do?",
-    answer:'Null',
-  },
-  {
-    question: "What technologies are you proficient in?",
-    answer: "I'm proficient in C++, JavaScript, HTML, CSS, and various frameworks.",
-  },
-  {
-    question: "Can you describe your communication style?",
-    answer:
-      "I communicate clearly and openly, ensuring everyone is on the same page.",
-  },
-];
+
 
 export const EDUCATION = [
   {
-    title: "YonZon Barber & Beauty",
-    year: "Currently Working",
-  },
-];
-export const EXPERINCE = [
-  {
     title: "Lethbridge Polytechnic",
     year: "Anticipated – April 2025",
+    t: "Lethbridge Collegiate Institute (HIgh School)",
+    y: "2019",
+  },
+];
+export const EXPRIENCE = [
+  {
+    title: "YonZon Barber & Beauty (UI&Ux",
+    year: "Currently Working",
+    t:"McDonald's (Cashier)",
+    y:"2018-2020",
+    t1:"Whole-Leaf (Green House)",
+    y1:"2017-2018",
+    t3: "Quest Support Services",
+    y3: "2020-2023",
+    t4: "CareBridge Pharmacy (Pharmacy Assistent)",
+    y4: "Currently Working",
+   
   },
 ];
 
@@ -65,6 +62,9 @@ export const SERVICES = [
       "I have a strong foundation in Data Structures and Algorithms. I excel at solving complex problems using efficient algorithms, leveraging concepts such as recursion, dynamic programming, graph theory, and sorting algorithms. My expertise enables me to optimize code and build scalable solutions for real-world challenges.",
   },
 ];
+
+
+
 
 
 // Work data
