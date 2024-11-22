@@ -33,7 +33,7 @@ const page = () => {
       {/* Reference Letter Button */}
       <div className=" flex justify-center gap-4 pt-10">
         <a 
-          href="/jkennedy.pdf" // Replace with the actual file name and path in your public folder
+          href="/Jkennedy.pdf" // Replace with the actual file name and path in your public folder
           target="_blank" // Opens the file in a new tab
           rel="noopener noreferrer" // Security best practices
           className="px-6 py-3 bg-primary text-white font-semibold rounded-md shadow-md hover:bg-primary-dark transition-all"
